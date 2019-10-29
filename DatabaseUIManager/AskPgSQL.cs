@@ -11,7 +11,7 @@ namespace DatabaseUIManager
     {
 
         private static NpgsqlConnection conn=null;
-        private static string connString= "Host=127.0.0.1;Username=fsfgfbfhty ;Password=fsfgfbfhty";
+        private static string connString= "Host=127.0.0.1;Username=postgres;Password=fsfgfbfhty";
         private static NpgsqlCommand cmd=null;
         private static string nowdtb;
 

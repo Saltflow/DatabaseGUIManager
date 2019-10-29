@@ -68,6 +68,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AskExcel.cs" />
     <Compile Include="AskPgSQL.cs" />
     <Compile Include="ColumnManip.cs">
       <SubType>Form</SubType>

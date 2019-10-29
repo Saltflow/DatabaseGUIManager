@@ -377,5 +377,20 @@ namespace DatabaseUIManager
             }
             else attribText.Visible = false;
         }
+
+        private void ExcelMod_Click(object sender, EventArgs e)
+        {
+            this.acButton.Show();
+            this.confAddButton.Hide();
+            this.ColNameLabel.Hide();
+            this.ColTypeLabel.Hide();
+            this.addColSelect.Hide();
+            this.ColNameText.Hide();
+            this.attribText.Hide();
+            this.button1.Hide();
+            this.button2.Hide();
+            this.drpTabel.Hide();
+            this.dataGridView1.DataSource = AskExcel.getData();
+        }
     }
 };

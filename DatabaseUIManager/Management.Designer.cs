@@ -43,6 +43,7 @@
             this.ColNameText = new System.Windows.Forms.TextBox();
             this.attribText = new System.Windows.Forms.TextBox();
             this.TypeNoticeLabel = new System.Windows.Forms.Label();
+            this.ExcelMod = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -202,11 +203,22 @@
             this.TypeNoticeLabel.Size = new System.Drawing.Size(0, 15);
             this.TypeNoticeLabel.TabIndex = 13;
             // 
+            // ExcelMod
+            // 
+            this.ExcelMod.Location = new System.Drawing.Point(1117, 569);
+            this.ExcelMod.Name = "ExcelMod";
+            this.ExcelMod.Size = new System.Drawing.Size(114, 58);
+            this.ExcelMod.TabIndex = 14;
+            this.ExcelMod.Text = "Excel";
+            this.ExcelMod.UseVisualStyleBackColor = true;
+            this.ExcelMod.Click += new System.EventHandler(this.ExcelMod_Click);
+            // 
             // Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1262, 913);
+            this.Controls.Add(this.ExcelMod);
             this.Controls.Add(this.TypeNoticeLabel);
             this.Controls.Add(this.attribText);
             this.Controls.Add(this.ColNameText);
@@ -246,6 +258,7 @@
         private System.Windows.Forms.TextBox ColNameText;
         private System.Windows.Forms.TextBox attribText;
         private System.Windows.Forms.Label TypeNoticeLabel;
+        private System.Windows.Forms.Button ExcelMod;
     }
 }
 
